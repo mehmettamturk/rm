@@ -1,0 +1,42 @@
+.task-container {
+    border: 1px solid #e5e5e5;
+
+    strong {
+        border-bottom: 1px solid #e5e5e5;
+        display: inline-block;
+        min-width: 200px;
+        margin-bottom: 10px;
+    }
+
+    &.c-pending {
+        
+    }
+}
+
+.task-item {
+    width: 100%;
+    display: inline-block;
+    height: 50px;
+    border: 1px solid #e5e5e5;
+    margin: 5px;
+    border-radius: 5px;
+
+    span {
+        display: inline-block;
+        text-align: left;
+        line-height: 50px;
+        padding: 0 10px;
+    }
+}
+
+.task-name {
+    width: 50%;
+}
+
+.task-links {
+    width: 25%;
+}
+
+.task-status {
+    width: 25%;
+}
